@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="auto_updates_check_entries">
+        <item>@string/setting_auto_updates_check_interval_daily</item>
+        <item>@string/setting_auto_updates_check_interval_weekly</item>
+        <item>@string/setting_auto_updates_check_interval_monthly</item>
+        <item>@string/setting_auto_updates_check_interval_never</item>
+    </string-array>
+    <string-array name="auto_updates_check_values">
+        <item>daily</item>
+        <item>weekly</item>
+        <item>monthly</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="auto_updates_download_entries">
+        <item>@string/setting_auto_updates_download_wifi</item>
+        <item>@string/setting_auto_updates_download_data</item>
+    </string-array>
+    <string-array name="auto_updates_download_values">
+        <item>wifi</item>
+        <item>data</item>
+    </string-array>
+    <string-array name="update_type_entries">
+        <item>@string/text_update_type_full</item>
+        <item>@string/text_update_type_incremental</item>
+    </string-array>
+    <string-array name="update_type_values">
+        <item>full</item>
+        <item>incremental</item>
+    </string-array>
+</resources>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">系统更新</string>
+
+    <string name="header_os_version">系统版本: %1$s</string>
+    <string name="header_last_check">最后一次检查更新: %1$s</string>
+
+    <string name="list_no_updates">未找到更新。要手动检查更新，请使用刷新按钮。</string>
+
+    <string name="title_update_desc">更新内容</string>
+    <string name="title_activity_settings">设置</string>
+
+    <string name="text_update_type_incremental">增量更新</string>
+    <string name="text_update_type_full">全量更新</string>
+
+    <string name="card_update_type">类型: %1$s</string>
+    <string name="card_update_size">大小: %1$s</string>
+    <string name="card_update_time">时间: %1$s</string>
+
+    <string name="confirm_delete_dialog_title">删除文件</string>
+    <string name="confirm_delete_dialog_message">删除选择的更新文件?</string>
+    <string name="confirm_verify_dialog_title">验证失败</string>
+    <string name="confirm_verify_dialog_message">这个更新验证失败，安装它可能导致设备工作不正常。您确定要继续吗？</string>
+    <string name="confirm_reboot_dialog_title">重启以安装更新</string>
+    <string name="confirm_reboot_dialog_message">设备将重启以安装更新。是否继续？</string>
+    <string name="confirm_mobile_network_warning_title">移动数据网络警告</string>
+    <string name="confirm_mobile_network_warning_message">您将要通过移动数据网络下载更新包，这可能会导致较大的数据用量。您确定要继续吗？</string>
+
+    <string name="snack_updates_check_failed">检查更新失败。 请您检查您的网络连接并稍后重试。</string>
+    <string name="snack_file_deleted">文件已删除。</string>
+    <string name="snack_file_deletion_failed">文件删除失败。</string>
+    <string name="snack_file_not_exist">文件不存在。</string>
+    <string name="snack_url_copied">更新URL已经复制到剪贴板。</string>
+    <string name="snack_url_copy_failed">复制更新URL到剪贴板失败</string>
+
+    <string name="menu_copy_url">复制更新URL</string>
+    <string name="menu_delete_file">删除下载的文件</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_cancel_download">取消下载</string>
+    <string name="menu_cancel_install">取消安装</string>
+    
+    <string name="status_starting">正在开始</string>
+    <string name="status_downloading">正在下载</string>
+    <string name="status_paused">已暂停</string>
+    <string name="status_downloaded">已下载</string>
+    <string name="status_download_failed">下载失败</string>
+    <string name="status_verifying">正在验证</string>
+    <string name="status_verification_failed">验证失败</string>
+    <string name="status_verified">已验证</string>
+    <string name="status_installing">正在安装</string>
+    <string name="status_installation_suspended">安装已暂停</string>
+    <string name="status_installation_failed">安装失败</string>
+    <string name="status_installed">已安装</string>
+    <string name="status_installation_cancelled">已取消安装</string>
+
+    <string name="setting_auto_update">自动更新</string>
+    <string name="setting_auto_updates_check">自动检查更新</string>
+    <string name="setting_auto_updates_check_interval_daily">每天一次</string>
+    <string name="setting_auto_updates_check_interval_weekly">每周一次</string>
+    <string name="setting_auto_updates_check_interval_monthly">每月一次</string>
+    <string name="setting_auto_updates_check_interval_never">从不</string>
+    <string name="setting_auto_updates_download">自动下载更新</string>
+    <string name="setting_auto_updates_download_wifi">使用WiFi</string>
+    <string name="setting_auto_updates_download_data">使用数据网络</string>
+    <string name="setting_auto_updates_download_wifi_and_data">使用WiFi和数据网络</string>
+    <string name="setting_auto_updates_download_never">从不</string>
+    <string name="setting_download_settings">下载设置</string>
+    <string name="setting_update_type">更新类型</string>
+    <string name="setting_update_type_all">所有类型</string>
+    <string name="setting_mobile_network_warning">移动数据网络警告</string>
+    <string name="setting_save_path">下载路径</string>
+    <string name="setting_user_agent">UA设置</string>
+    <string name="setting_update_settings">更新设置</string>
+    <string name="setting_update_channel">更新通道</string>
+    <string name="setting_auto_delete_updates">安装完毕后删除更新</string>
+    <string name="setting_clean_cache_after_update">安装完毕后清除缓存</string>
+    <string name="setting_clean_cache_after_update_summary">安装完毕后清除Dalvik/ART缓存</string>
+    <string name="setting_append_ors_title">附加OpenRecoveryScript</string>
+    
+    <string name="notification_channel_updates_found">发现更新</string>
+    <string name="notification_channel_updates_downloading">下载更新</string>
+    <string name="notification_channel_updates_install">安装更新</string>
+
+    <string name="notification_title_new_update_found">发现更新</string>
+    <string name="notification_text_new_update_found">发现更新 %1$s</string>
+    <string name="notification_titie_update_downloading">正在下载更新</string>
+    <string name="notification_text_update_downloading">正在下载 %1$s (%2$s)</string>
+    <string name="notification_titie_update_downloading_failed">更新下载失败</string>
+    <string name="notification_text_update_downloading_failed">更新 %1$s 下载失败</string>
+    <string name="notification_titie_update_verifying">正在验证更新</string>
+    <string name="notification_text_update_verifying">正在验证 %1$s</string>
+    <string name="notification_titie_update_verifying_failed">更新验证失败</string>
+    <string name="notification_text_update_verify_failed">更新 %1$s 验证失败</string>
+    <string name="notification_titie_update_verifying_succeed">更新验证成功</string>
+    <string name="notification_text_update_verify_succeed">更新 %1$s 验证成功</string>
+    <string name="notification_title_update_installing">正在安装更新</string>
+    <string name="notification_text_update_installing">正在安装 %1$s (%2$s)</string>
+    <string name="notification_title_update_install_success">更新安装成功</string>
+    <string name="notification_text_update_install_success">更新 %1$s 安装成功</string>
+    <string name="notification_title_update_install_failed">更新安装失败</string>
+    <string name="notification_text_update_install_failed">更新 %1$s 安装失败</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/setting_auto_update">
+        <ListPreference
+            android:key="auto_check_interval"
+            android:title="@string/setting_auto_updates_check"
+            android:entries="@array/auto_updates_check_entries"
+            android:entryValues="@array/auto_updates_check_values"
+            android:defaultValue="daily"
+            app:useSimpleSummaryProvider="true" />
+        <MultiSelectListPreference
+            android:key="auto_download"
+            android:title="@string/setting_auto_updates_download"
+            android:entries="@array/auto_updates_download_entries"
+            android:entryValues="@array/auto_updates_download_values" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/setting_download_settings">
+        <MultiSelectListPreference
+            android:key="update_type"
+            android:title="@string/setting_update_type"
+            android:entries="@array/update_type_entries"
+            android:entryValues="@array/update_type_values" />
+        <SwitchPreference
+            android:key="mobile_network_warning"
+            android:title="@string/setting_mobile_network_warning"
+            android:defaultValue="true" />
+        <EditTextPreference
+            android:key="download_path"
+            android:title="@string/setting_save_path"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="user_agent"
+            android:defaultValue="@string/attr_user_agent"
+            android:title="@string/setting_user_agent"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/setting_update_settings">
+        <SwitchPreference
+            android:key="delete_after_install"
+            android:title="@string/setting_auto_delete_updates"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:key="clean_cache_after_install"
+            android:title="@string/setting_clean_cache_after_update"
+            android:defaultValue="false"
+            android:summary="@string/setting_clean_cache_after_update_summary" />
+        <EditTextPreference
+            android:key="update_channel"
+            android:title="@string/setting_update_channel"
+            android:defaultValue="@string/attr_update_channel_url"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="append_ors"
+            android:title="@string/setting_append_ors_title"
+            android:defaultValue=""
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

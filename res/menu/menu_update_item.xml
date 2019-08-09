@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_copy_url"
+        android:title="@string/menu_copy_url" />
+    <item
+        android:id="@+id/action_cancel_download"
+        android:title="@string/menu_cancel_download" />
+    <item
+        android:id="@+id/action_cancel_install"
+        android:title="@string/menu_cancel_install" />
+    <item
+        android:id="@+id/action_delete_file"
+        android:title="@string/menu_delete_file" />
+</menu>
