@@ -41,7 +41,7 @@ Build information
 -------------------------
 You need generate a keystore and keystore.properties using `gen-keystore.sh` before build SystemUpdater.
 
-### IMPORTANT NOTICE ###
+### IMPORTANT NOTE ###
 * You should replace `res/drawable/update.png` with your own file
 * Please edit `res/values/strings.xml` to set your attributes
 
